@@ -7,7 +7,8 @@ public class JavaFundamental_OptionalTask1_2 {
 		
 		// Greetings, purpose and instructions
 		System.out.println ("Hello User,\nPurpose of this program is to sort out "
-				+ "inputted integers according to their digit length ascendingly.");
+				+ "inputted integers according to their digit length ascendingly and "
+				+ "descendingly.");
 		
 		//get how many numbers user is going to input
 		System.out.println ("How many numbers you going to input?:");
@@ -34,7 +35,12 @@ public class JavaFundamental_OptionalTask1_2 {
 			
 			System.out.println (data[i]);
 		}
-
+		System.out.println ("Integers sorted out descendingly according to their "
+				+ "digit length:");
+		for (int i=howMany-1;i>=0;i--) {
+			
+			System.out.println (data[i]);
+		}
 	}	
 	
 	//implementations of methods for input from user
